@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta nome="Trabalho Front" content="Leonardo Espindula">
+        <title>Lançamento de notas</title>
+        <style>
+            body{
+                background-color: rgb(193, 221, 248);
+                text-indent: 50px;
+            }
+            table{
+                margin-left: 50px;
+                margin-right: auto;
+                border: 1px solid black;
+                border-spacing: 0px;
+            }
+            h1{
+                text-align: justify;
+                text-indent: 50px;;
+            }
+            th{
+                border: thin solid;
+                text-align: center;
+                background-color: rgb(124, 148, 228);
+                font-size: 20px;
+            }
+            td{ 
+                background-color: white;
+                padding: 10px;
+                border: 1px solid black;
+                font-size: 15px;
+            }
+            input.bl{
+                background-color:rgb(179, 179, 179);
+                border: 2px solid black;
+                margin-left: 10px;
+                font-size: 15px;
+            }
+            input.bs{
+                background-color:rgb(179, 179, 179);
+                border: 2px solid black;
+                margin-left: 50px;
+                font-size: 15px;
+            }
+            select:hover{
+                background-color: rgb(124, 148, 228);
+                box-shadow: 2px 2px 4px black;
+                font-size: 15px;
+            }
+            td:hover{
+                background-color: rgb(124, 148, 228);
+                border: 50px;
+                box-shadow: 1px 1px 4px black;;
+            }
+            input.bl:hover{
+                background-color: rgb(124, 148, 228);
+                font-size: 18px;
+                }
+                input.bs:hover{
+                background-color: rgb(124, 148, 228);
+                font-size: 18px;
+                }
+        </style>
+
+    </head>
+    <body>
+        <h1>Lançamento de notas</h1>
+        <form>
+            <select name="materia">
+                <option>Seleciona a Disciplina</option>
+                <option> Introdução a Informatica </option>
+                <option> Linguagens de Programação </option>
+                <option> Programação de computadores </option>
+            </select>
+        </form>
+        <h2></h2>
+        <table>
+            <tr>
+                <th>Nome do aluno</th>
+                <th>Prova 1</th>
+                <th>Prova 2</th>
+                <th>Exame</th>
+                <th>Média</th>
+                <th>Faltas</th>
+            </tr>
+            <tr>
+
+                <td>
+                    <input type="text"required>
+                </td>
+                <td>
+                    <input type="number" required>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="number"disabled>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text"required>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="number"disabled>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text"required>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="number"disabled>
+                </td>
+                <td>
+                    <input type="number"required>
+                </td>
+            </tr>
+            
+
+        </table>
+        <h2></h2>
+        <input type="submit" value="Salvar"class="bs">
+        <input type="reset" value="Limpar"class="bl">
+    </body>
+</html>
